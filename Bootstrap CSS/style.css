@@ -1,0 +1,32 @@
+
+.carousel-item img {
+    object-fit: cover;
+    height: 600px;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(95, 93, 93);
+}
+p, h1, h3, h5, label {
+    color: antiquewhite;
+}
+h6 {
+    color: aliceblue;
+}
+li {
+    color: antiquewhite;
+}
+
+
+
+#emailHelp {
+    color: antiquewhite;
+}
+#mail {
+    color: rgb(243, 110, 110);
+    text-decoration: none;
+}
+#product {
+    color: antiquewhite;
+    text-decoration: none;
+}
