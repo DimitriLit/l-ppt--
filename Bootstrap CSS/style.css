@@ -7,7 +7,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(95, 93, 93);
 }
-p, h1, h3, h5, label {
+.text p, h1, h3, h5, label {
     color: antiquewhite;
 }
 h6 {
@@ -18,6 +18,52 @@ li {
 }
 
 
+.blog-post {
+    background-color: rgb(95, 93, 93);
+    padding: 25px;
+    box-shadow: 5px 5px 5px rgb(236, 124, 124);
+    margin: 20px;
+}
+.blog-post h1 {
+    color: rgb(233, 142, 142);
+}
+.blog-post p, .blog-post a {
+    color: antiquewhite;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.blog-post a:hover {
+    color: rgb(233, 142, 142);
+}
+.blog-post .date {
+    color: rgb(233, 142, 142);
+    font-size: small;
+}
+
+
+.inblog{
+    margin: 10px;
+    padding: 10px;
+}
+.inblog img {
+    margin: 20px;
+}
+.inblog h6 {
+    color: rgb(233, 142, 142);
+}
+.inblog h2, .inblog p  {
+    color: antiquewhite;
+    padding: 5px;
+}
+
+
+.image-container {
+    display: flex;
+}
+.image-container img {
+    max-width: 48%;
+    height: auto;
+}
 
 #emailHelp {
     color: antiquewhite;
